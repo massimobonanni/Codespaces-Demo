@@ -12,7 +12,7 @@
 			"version": "latest"
 		}
     },
-    "postCreateCommand": "npm install -g @devcontainers/cli",
+    "postCreateCommand": "",
     "customizations": {
         "vscode": {
             "extensions": [
