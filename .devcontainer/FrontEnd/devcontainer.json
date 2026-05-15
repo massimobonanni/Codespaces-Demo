@@ -11,7 +11,7 @@
 			"version": "latest"
 		}
     },
-    "postCreateCommand": "echo '👋 Welcome to Custom Codespace!'",
+    "postCreateCommand": "echo '👋 Welcome to Custom Codespace FRONTEND!'",
     "customizations": {
         "vscode": {
             "extensions": [

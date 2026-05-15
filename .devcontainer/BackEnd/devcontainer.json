@@ -1,0 +1,23 @@
+{
+    "image": "mcr.microsoft.com/devcontainers/dotnet:8.0",
+    "features": {
+		"ghcr.io/azure/azure-dev/azd:latest": {},
+        "ghcr.io/frntn/devcontainers-features/postman:1": {},
+        "ghcr.io/devcontainers/features/azure-cli:1": {
+			"version": "latest",
+			"bicepVersion": "latest"
+		},
+		"ghcr.io/jlaundry/devcontainer-features/azure-functions-core-tools:1": {
+			"version": "latest"
+		}
+    },
+    "postCreateCommand": "echo '👋 Welcome to Custom Codespace BACKEND!'",
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "ms-azuretools.vscode-azurefunctions",
+                "humao.rest-client"
+            ]
+        }
+    }
+}
