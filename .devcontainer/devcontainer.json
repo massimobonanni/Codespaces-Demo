@@ -1,5 +1,8 @@
 {
     "image": "mcr.microsoft.com/devcontainers/dotnet:8.0",
+	"remoteEnv": {
+    	"MY_API_KEY": "${localEnv:MY_API_KEY}"
+  	},
     "features": {
 		"ghcr.io/azure/azure-dev/azd:latest": {},
         "ghcr.io/frntn/devcontainers-features/postman:1": {},
