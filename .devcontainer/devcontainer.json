@@ -14,7 +14,7 @@
 			"version": "latest"
 		}
     },
-    "postCreateCommand": "echo '👋 Welcome to Default Codespace Config!'",
+    "postCreateCommand": "bash -lc 'if [ -z \"$MY_API_KEY\" ]; then echo \"Missing MY_API_KEY\"; else echo \"Secret available\"; fi'; echo '👋 Welcome to Default Codespace Config!'",
     "customizations": {
         "vscode": {
             "extensions": [
