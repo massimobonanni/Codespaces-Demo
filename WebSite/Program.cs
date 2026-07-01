@@ -24,4 +24,6 @@ app.MapControllerRoute(
     name: "default",
     pattern: "{controller=Home}/{action=Index}/{id?}");
 
+var apiKey = Environment.GetEnvironmentVariable("MY_API_KEY");
+
 app.Run();
